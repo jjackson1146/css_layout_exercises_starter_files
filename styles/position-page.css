@@ -1,1 +1,29 @@
+nav {
+  height: 85px;
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+}
 
+.imgcircle {
+  border-radius: 50%;
+  width: 75px;
+  position: absolute;
+  left: 150px;
+  top: 5px;
+  border: 1px solid black;
+}
+
+li {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  top: 15px;
+}
+
+ul li:not(:first-child):before {
+  content: "|";
+  position: relative;
+  right: 2px;
+}
