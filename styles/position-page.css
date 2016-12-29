@@ -27,3 +27,22 @@ ul li:not(:first-child):before {
   position: relative;
   right: 2px;
 }
+
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.cat {
+  width: 200px;
+  position: relative;
+  left: 200px;
+  top: 400px;
+}
+
+.dog {
+  width: 200px;
+  position: relative;
+  left: 800px;
+  top: 700px;
+}
