@@ -11,14 +11,21 @@ main {
   margin-right: auto;
 }
 
+.both {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .imgone {
   width: 300px;
   float: left;
-  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .imgtwo {
   width: 300px;
   float: right;
-  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
